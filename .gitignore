@@ -15,6 +15,15 @@ local.properties
 .loadpath
 .recommenders
 
+# Log directory
+logs/*
+
+# Screenshots directory
+screenshots/*
+
+# test-output directory
+test-output/*
+
 # External tool builders
 .externalToolBuilders/
 
