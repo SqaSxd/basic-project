@@ -59,6 +59,11 @@ public class Core {
 		return this.log;
 	}
 
+	/* a better implementation */
+	public String getProp(String key) {
+		return AutoBasics.getProp(key, "src/main/resources/", "config.properties", getLog());
+	}
+
 	public String getProp(String propName, String fileLocation, String fileName) {
 		return AutoBasics.getProp(propName, fileLocation, fileName, this.getLog());
 	}
